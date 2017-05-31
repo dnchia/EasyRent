@@ -1,0 +1,14 @@
+\i users.sql
+\i properties.sql
+\i photos.sql
+\i es.ei1027.daal.easyrent.services.sql
+\i booking_proposals.sql
+\i invoices.sql
+\i availability_of_properties.sql
+\i property_services.sql
+
+GRANT ALL ON DATABASE "easyRent_DAAL" TO al286290;
+GRANT ALL ON DATABASE "easyRent_DAAL" TO al286292;
+
+GRANT ALL ON ALL TABLES IN SCHEMA public TO al286290;
+GRANT ALL ON ALL TABLES IN SCHEMA public TO al286292;

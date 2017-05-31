@@ -1,0 +1,18 @@
+<h3>The booking proposal for: ${bookingProposal.property.title}, has expired</h3>
+<br/>
+<p>
+    We feel sorry to say that the owner has not approved your proposal, since the 24h term has passed and he or she has not taken a decision.
+</p>
+<p>
+    You have received a refund for the 100% of the quantity that you gave.
+</p>
+<p>
+    If you have any questions, please contact EasyRent support via <a href="mailto:info@easyrent.com">info@easyrent.com</a>
+</p>
+<br>
+<p>Here you have some extra info about the booking that you performed:</p>
+<br>
+<p>${template}</p>
+<br>
+<h4>We regret that this has not been better.</h4>
+<h4>We wish you good luck with your journey here in EasyRent. Thanks for trusting us.</h4>

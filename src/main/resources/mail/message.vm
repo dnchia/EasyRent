@@ -1,0 +1,13 @@
+<h3>${message.user.username}, has sent a message via property <a href="http://${host}:${port}/property/show/${message.conversation.property.id}.html">${message.conversation.property.title}</a> ad page</h3>
+<hr>
+<br>
+<h4 style="background-color: #535353; color: #f5f5f5;">Message content</h4>
+<p>
+    ${message.message}
+</p>
+<h4 style="background-color: #535353; color: #f5f5f5;">See the full conversation</h4>
+<p>
+    <a href="http://${host}:${port}/conversation/show/${message.conversation.id}.html">Link to the conversation</a>
+</p>
+<br>
+<h4>Do not reply this mail, instead open the conversation and reply there. Thanks for your trust.</h4>

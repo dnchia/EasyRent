@@ -1,0 +1,21 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"
+"http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+    <title>EasyRent Mail</title>
+</head>
+<body>
+<table style="width: 90% !important" align="center">
+    <tr>
+        <th style="background-color: #E5E3E1;" align="left">
+            <img style="padding: 5px" src="https://s3-eu-west-1.amazonaws.com/easyrent-ei1027/static/img/logo.png">
+        </th>
+    </tr>
+    <tr>
+        <td style="padding: 5%; background-color: #F9F9F9" align="left">
+            ${template}
+        </td>
+    </tr>
+</table>
+</body>
+</html>

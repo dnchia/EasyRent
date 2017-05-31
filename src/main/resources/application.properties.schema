@@ -1,0 +1,37 @@
+# DB connector settings
+spring.datasource.url=jdbc:postgresql://db-aules.uji.es:5432/ei102715daal
+spring.datasource.username=XXXXXXXXXXXX
+spring.datasource.password=XXXXXXXXXXXX
+spring.jpa.hibernate.ddl-auto=update
+
+# View engine settings
+spring.mvc.view.prefix=/WEB-INF/jsp/
+spring.mvc.view.suffix=.jsp
+spring.mvc.date-format=dd/MM/yyyy
+spring.mvc.locale=en
+
+# Multipart uploading configuration
+multipart.enabled=true
+multipart.max-file-size=5MB
+multipart.max-request-size=50MB
+
+# Spring mail
+spring.mail.default-encoding=UTF-8
+spring.mail.host=smtp.gmail.com
+spring.mail.port=587
+spring.mail.username=noreplyeasyrent@gmail.com
+spring.mail.password=AZ78*2r21#
+spring.mail.properties.mail.smtp.enable=true
+spring.mail.properties.mail.smtp.auth=true
+spring.mail.properties.mail.smtp.starttls.enable=true
+spring.velocity.enabled=false
+
+# Hibernate search indexes
+spring.jpa.properties.hibernate.search.default.directory_provider=filesystem
+spring.jpa.properties.hibernate.search.default.indexBase=/var/lucene/indexes
+
+# Custom properties
+easyrent.photos.basedir=/var/easyrent/photos
+easyrent.invoices.vat=0.21
+easyrent.http.host=localhost
+easyrent.http.port=8080

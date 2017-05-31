@@ -1,0 +1,179 @@
+.jumbotron {
+    background: #f39c12 url("/img/cityscape.png") no-repeat right top;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    color: #fff;
+    padding: 80px 25px 30px;
+}
+
+.container-padded {
+    padding: 30px 50px;
+}
+
+.navbar {
+    border: 0;
+    border-radius: 0;
+    margin-bottom: 0;
+    font-size: 12px;
+    letter-spacing: 5px;
+}
+
+.navbar .divider-vertical {
+    height: 50px;
+    margin: 0 9px;
+    border-right: 1px solid #95a5a6;
+    border-left: 1px solid #95a5a6;
+}
+
+.navbar-nav li a:hover {
+    color: #bdc3c7 !important;
+}
+
+.md-size {
+    max-height: 140px;
+    max-width: 140px;
+}
+
+.img-border {
+    border: 5px #95a5a6 solid;
+    -webkit-box-shadow: 10px 10px 50px -19px rgba(0,0,0,0.75);
+    -moz-box-shadow: 10px 10px 50px -19px rgba(0,0,0,0.75);
+    box-shadow: 10px 10px 50px -19px rgba(0,0,0,0.75);
+}
+
+#signup-nav-btn a:hover {
+    background-color: #e67e22 !important;
+    color: #fff !important;
+}
+
+#logout-nav-btn a:hover {
+    background-color: #95a5a6 !important;
+    color: #000 !important;
+}
+
+.text-white {
+    color: #fff !important;
+}
+
+.bg-concrete {
+    background-color: #95a5a6 !important;
+}
+
+.bg-silver {
+    background-color: #bdc3c7 !important;
+}
+
+.top-padding30px {
+    margin-top: 30px;
+}
+
+.left-padding30px {
+    margin-left: 30px;
+}
+
+.carousel-control.right, .carousel-control.left {
+    background-image: none;
+    color: #f39c12;
+}
+
+.corporate-text {
+    color: #f39c12;
+}
+
+a > .corporate-text:hover {
+    color: #e67e22;
+}
+
+.carousel-indicators li {
+    border-color: #f39c12;
+}
+
+.carousel-indicators li.active {
+    background-color: #e67e22;
+}
+
+.text-shadow,
+.index-box h1,
+.index-box h2,
+.index-box h3 {
+    text-shadow: 1px 1px 2px rgba(150, 150, 150, 1);
+}
+
+.text-silver {
+    color: #bdc3c7;
+}
+
+.index-box {
+    background-color: #fff;
+    padding: 80px 25px;
+}
+
+.spare-box {
+    margin: 10px;
+    -webkit-box-shadow: 10px 10px 15px -8px rgba(0,0,0,0.35);
+    -moz-box-shadow: 10px 10px 15px -8px rgba(0,0,0,0.35);
+    box-shadow: 10px 10px 15px -8px rgba(0,0,0,0.35);
+}
+
+.index-image-1 {
+    background: url("/img/pillows.jpg") no-repeat right top;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+.index-image-2 {
+    background: url("/img/sea.jpg") no-repeat right top;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+.administrationInputField {
+    width: 500px;
+}
+
+@media (min-width: 992px) {
+    .left-search {
+        position: absolute;
+        top: 175px;
+        bottom: 0;
+        width: 455px;
+        overflow-y: scroll
+    }
+
+    .right-search {
+        position: absolute;
+        top: 175px;
+        bottom: 0;
+        margin-left: 445px;
+        width: 455px;
+    }
+}
+
+@media (min-width: 1200px) {
+    .left-search {
+        position: absolute;
+        top: 175px;
+        bottom: 0;
+        width: 555px;
+        overflow-y: scroll
+    }
+
+    .right-search {
+        position: absolute;
+        top: 175px;
+        bottom: 0;
+        margin-left: 545px;
+        width: 555px;
+    }
+}
+
+.service-label {
+    margin: 5px;
+    border: white dotted 1px;
+}

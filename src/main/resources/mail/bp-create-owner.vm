@@ -1,0 +1,28 @@
+<h3>Your property: ${bookingProposal.property.title}, has received a booking proposal</h3>
+<br/>
+<p>
+    Please read carefully the content of this email. You have a <b>24h term</b> to take a decission.
+</p>
+<br>
+<p>${template}</p>
+<br>
+<h4 style="background-color: #535353; color: #f5f5f5;">In case that you accept the proposal</h4>
+<p>
+    Please, be kind with your guest, if he is comming to take some holidays and do some tourism maybe it could be a good idea to show him or her the surroundings.
+</p>
+<p>
+    Who knows, maybe you even become friends!
+</p>
+<h4 style="background-color: #535353; color: #f5f5f5;">In case that you dicide to reject the proposal</h4>
+<p>
+    No one is going to blame at you, it's your house and your decision. But please, consider the opportunity to meet a nice person. That opportunity will be lost if you reject.
+</p>
+<h4 style="background-color: #535353; color: #f5f5f5;">Have you taken a decission? You can work faster from here</h4>
+<p>
+    To <b>ACCEPT</b>, please follow this link: <a href="http://${host}:${port}/booking-proposal/accept/${bookingProposal.id}.html">http://${host}:${port}/booking-proposal/accept/${bookingProposal.id}.html</a>
+</p>
+<p>
+    To <b>REJECT</b>, please follow this link: <a href="http://${host}:${port}/booking-proposal/reject/${bookingProposal.id}.html">http://${host}:${port}/booking-proposal/reject/${bookingProposal.id}.html</a>
+</p>
+<h4>As soon as you take a decision, we will notify the tenant about the new booking status.</h4>
+<h4>Thanks for trusting in EasyRent</h4>

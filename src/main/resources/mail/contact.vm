@@ -1,0 +1,18 @@
+<h3>The customer: ${contactForm.name}, has sent a message via the contact form</h3>
+<hr>
+<br>
+<h4 style="background-color: #535353; color: #f5f5f5;">Subject</h4>
+<p>
+    ${contactForm.subject}
+</p>
+<br>
+<h4 style="background-color: #535353; color: #f5f5f5;">Message</h4>
+<p>
+    ${contactForm.message}
+</p>
+<h4 style="background-color: #535353; color: #f5f5f5;">Reply to</h4>
+<p>
+    <a href="mailto:${contactForm.email}?subject=[EasyRent] Message reply for: ${contactForm.subject}">${contactForm.email}</a>
+</p>
+<br>
+<h4>This is an internal email, always reply with your corporative mail.</h4>

@@ -1,0 +1,27 @@
+<h3>The booking proposal for: ${bookingProposal.property.title}, has been accepted!</h3>
+<br/>
+<p>
+    We feel very happy to say that your rental proposal has been aproved.
+</p>
+<p>
+    Pack your bags and confirm that you don't miss anything before leaving. Remember, you're leaving your home, but you're going to feel like at home.
+</p>
+<p>
+    Your host will welcome you with open arms. Be open-minded, maybe you even become friends!
+</p>
+<p>
+    The owner has been paid for the total amount agreed in the booking terms.
+</p>
+<p>
+    Find the invoice attached to this mail, you can also download it from the <a href="http://${host}:${port}/index.html#tenant-invoices">invoices</a> section in our website.
+</p>
+<p>
+    If you have any questions, please contact EasyRent support via <a href="mailto:info@easyrent.com">info@easyrent.com</a>
+</p>
+<br>
+<p>Here you have some extra info about the booking that you performed:</p>
+<br>
+<p>${template}</p>
+<br>
+<h4>Have a happy stay.</h4>
+<h4>We wish you good luck with your journey here in EasyRent. Thanks for trusting us.</h4>

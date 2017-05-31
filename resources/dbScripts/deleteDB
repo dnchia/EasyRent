@@ -1,0 +1,8 @@
+DROP TABLE property_services;
+DROP TABLE availability_of_properties;
+DROP TABLE invoices;
+DROP TABLE booking_proposals;
+DROP TABLE services;
+DROP TABLE photos;
+DROP TABLE properties;
+DROP TABLE users;

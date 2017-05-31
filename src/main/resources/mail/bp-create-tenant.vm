@@ -1,0 +1,23 @@
+<h3>You have successfuly booked: ${bookingProposal.property.title}</h3>
+<br/>
+<p>
+    We have correctly processed your booking proposal. The owner has a 24h term to confirm or reject your proposal.
+</p>
+<h4 style="background-color: #535353; color: #f5f5f5;">In case that the owner accepts your proposal</h4>
+<p>
+    You'll be granted access by him to the house, starting from the date you have specified in your booking proposal.<br>
+</p>
+<h4 style="background-color: #535353; color: #f5f5f5;">In case that the owner doesn't accepts your proposas</h4>
+<p>
+    In that case, we'll refund your money as soon as the owner rejects the proposal and then you can try better luck with another property.
+</p>
+<p>
+    But, anyway, don't worry, that's unlikely to happen, since after all this is the property you like, right?<br>
+</p>
+<br>
+<p>Here you have some extra info about the booking that you have done. Please check that everything is fine:</p>
+<br>
+<p>${template}</p>
+<br>
+<h4>As soon as the owner takes a decision we'll notify you. By the way, if you want to know the current status, at anytime you can access to the booking page</h4>
+<h4>We wish you good luck with your journey here in EasyRent. Thanks for trusting us.</h4>

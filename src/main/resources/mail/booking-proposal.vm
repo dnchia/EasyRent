@@ -1,0 +1,45 @@
+<table style="box-shadow: 7px 7px 5px 0 rgba(100,102,97,0.48); border-collapse: collapse; background-color: #E5E3E1">
+    <tr align="left">
+        <th style="background-color: #f39c12; color: #535353;">Booking proposal <a href="http://${host}:${port}/booking-proposal/show/${bookingProposal.id}.html"><b>#${bookingProposal.id}</b></a></th>
+    </tr>
+    <tr align="left">
+        <th style="background-color: #535353; color: #f5f5f5;"><b>Rental information</b></th>
+    </tr>
+    <tr align="left">
+        <td>Rental date: ${dateOfCreation}</td>
+    </tr>
+    <tr align="left">
+        <td>Rented by: <a href="http://${host}:${port}/user/profile/${bookingProposal.tenant.id}.html"><b>${bookingProposal.tenant.username}</b></a></td>
+    </tr>
+    <tr align="left">
+        <td>From: ${startDate}</td>
+    </tr>
+    <tr align="left">
+        <td>To: ${endDate}</td>
+    </tr>
+    <tr align="left">
+        <td>Number of tenants: ${bookingProposal.numberOfTenants}</td>
+    </tr>
+    <tr align="left">
+        <td>Rental price: ${totalAmount}</td>
+        <br>
+    </tr>
+    <tr align="left">
+        <th style="background-color: #535353; color: #f5f5f5;"><b>Rented property info</b></th>
+    </tr>
+    <tr align="left">
+        <td><h2>${bookingProposal.property.title}</h2></td>
+    </tr>
+    <tr align="left">
+        <td>${bookingProposal.property.description}</td>
+    </tr>
+    <tr align="left">
+        <td><b>Placed in: ${bookingProposal.property.location}<b></b></td>
+    </tr>
+    <tr align="left">
+        <td>${pricePerDay}</td>
+    </tr>
+    <tr align="left">
+        <td><a href="http://${host}:${port}/property/show/${bookingProposal.property.id}.html"><b>Anounce page</b></a></td>
+    </tr>
+</table>

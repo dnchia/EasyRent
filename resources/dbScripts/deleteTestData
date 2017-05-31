@@ -1,0 +1,8 @@
+DELETE FROM availability_of_properties;
+DELETE FROM invoices;
+DELETE FROM booking_proposals;
+DELETE FROM photos;
+DELETE FROM es.ei1027.daal.easyrent.services;
+DELETE FROM properties;
+DELETE FROM users;
+

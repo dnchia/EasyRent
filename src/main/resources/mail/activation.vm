@@ -1,0 +1,14 @@
+<h3>${activationToken.user.username}, your account has been successfully created</h3>
+<br>
+<p>
+    In order to continue using our platform, you have to use the link bellow.
+</p>
+<p>
+    If you didn't create an account in our platform, just dismiss this email, we won't send you any further emails.
+</p>
+<br>
+<p>
+    <a href="http://${host}:${port}/user/activate?t=${activationToken.id}">http://${host}:${port}/user/activate?t=${activationToken.id}</a>
+</p>
+<br>
+<h4>Welcome to EasyRent</h4>

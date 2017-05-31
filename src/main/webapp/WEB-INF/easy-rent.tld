@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+
+<taglib xmlns="http://java.sun.com/xml/ns/javaee"
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-jsptaglibrary_2_1.xsd"
+        version="2.1">
+
+    <tlib-version>1.0</tlib-version>
+    <short-name>myshortname</short-name>
+    <uri>http://mycompany.com</uri>
+    <tag>
+        <name>year-tag</name>
+        <tag-class>es.uji.daal.easyrent.tags.YearTag</tag-class>
+        <body-content>empty</body-content>
+    </tag>
+
+    <tag>
+        <name>time-config</name>
+        <tag-class>es.uji.daal.easyrent.tags.TimeConfig</tag-class>
+        <body-content>empty</body-content>
+        <attribute>
+            <name>type</name>
+            <required>true</required>
+        </attribute>
+        <attribute>
+            <name>var</name>
+        </attribute>
+    </tag>
+    
+    <tag>
+        <name>object-to-json</name>
+        <tag-class>es.uji.daal.easyrent.tags.ObjectToJson</tag-class>
+        <body-content>empty</body-content>
+        <attribute>
+            <name>object</name>
+            <required>true</required>
+            <rtexprvalue>true</rtexprvalue>
+        </attribute>
+        <attribute>
+            <name>var</name>
+        </attribute>
+    </tag>
+
+    <tag>
+        <name>availabilities-to-json</name>
+        <tag-class>es.uji.daal.easyrent.tags.AvailabilitiesToJson</tag-class>
+        <body-content>empty</body-content>
+        <attribute>
+            <name>periods</name>
+            <required>true</required>
+            <rtexprvalue>true</rtexprvalue>
+        </attribute>
+        <attribute>
+            <name>var</name>
+        </attribute>
+    </tag>
+    
+    <tag>
+        <name>color-gen</name>
+        <tag-class>es.uji.daal.easyrent.tags.ColorGenerator</tag-class>
+        <body-content>empty</body-content>
+        <attribute>
+            <name>number</name>
+            <required>true</required>
+            <rtexprvalue>true</rtexprvalue>
+        </attribute>
+        <attribute>
+            <name>var</name>
+        </attribute>
+    </tag>
+
+    <tag>
+        <name>calculate-vat</name>
+        <tag-class>es.uji.daal.easyrent.tags.InvoiceTools</tag-class>
+        <body-content>empty</body-content>
+        <attribute>
+            <name>value</name>
+            <required>true</required>
+            <rtexprvalue>true</rtexprvalue>
+        </attribute>
+        <attribute>
+            <name>var</name>
+        </attribute>
+    </tag>
+
+    <tag>
+        <name>properties-map-data</name>
+        <tag-class>es.uji.daal.easyrent.tags.PropertiesMapData</tag-class>
+        <body-content>empty</body-content>
+        <attribute>
+            <name>properties</name>
+            <required>true</required>
+            <rtexprvalue>true</rtexprvalue>
+        </attribute>
+        <attribute>
+            <name>var</name>
+        </attribute>
+    </tag>
+
+</taglib>
