@@ -22,4 +22,4 @@ For both options, after running the app, browse to [localhost:8080](http://local
 
 ## Authors
 * Alberto González [@albertogonper](https://github.com/albertogonper)
-* Daniel Chía [@dnca](https://github.com/dnca)
+* Daniel Chía [@dnchia](https://github.com/dnchia)
